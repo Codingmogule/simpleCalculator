@@ -1,0 +1,86 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Calculator</title>
+
+</head>
+<body>
+    <div>
+<h1 id="head">SIMPLE CALCULATOR!</h1>
+</div>
+<div class="calculator">
+    <!-- Display button -->
+    <!-- <input type="text" id="display">
+<button>7</button>
+<button>8</button>
+<button>9</button>
+<button>/</button>
+<button>6</button>
+<button>5</button>
+<button>4</button>
+<button>*</button>
+<button>3</button>
+<button>2</button>
+<button>1</button>
+<button>+</button>
+<button>0</button>
+<button>.</button>
+<button>=</button>
+<button>-</button>
+<button>%</button>
+<button>Clear</button>
+</div>
+   <script src="app.js" ></script>
+</body>
+</html> --> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1 id="head">SIMPLE CALCULATOR!</h1>
+</div>
+    </div>
+    <div class="calculator">
+        <input type="text" id="result" readonly>
+        <table>
+            <tr>
+                
+                <td><button onclick="enterNumber(7)">7</button></td>
+                <td><button onclick="enterNumber(8)">8</button></td>
+                <td><button onclick="enterNumber(9)">9</button></td>
+                <td><button onclick="enterOperator('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="enterNumber(4)">4</button></td>
+                <td><button onclick="enterNumber(5)">5</button></td>
+                <td><button onclick="enterNumber(6)">6</button></td>
+                <td><button onclick="enterOperator('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="enterNumber(1)">1</button></td>
+                <td><button onclick="enterNumber(2)">2</button></td>
+                <td><button onclick="enterNumber(3)">3</button></td>
+                <td><button onclick="enterOperator('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="enterNumber(0)">0</button></td>
+                <td><button onclick="enterOperator('.')">.</button></td>
+                <td><button onclick="calculate()">=</button></td>
+                <td><button onclick="enterOperator('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clearResult()">DEL</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
